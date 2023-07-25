@@ -1,3 +1,22 @@
+<p align="center">
+  <img src="https://github.com/giljihun/Nomad_Dart-Flutter/assets/75918176/593c53fb-1471-461c-96b8-6fe9d0e0fe19" alt="image">
+</p>
+
+<p align="center">
+다트. 뭐 어쩔
+</p>
+
+<p align="center">
+0. [Why Dart?](#0.-Why-Dart?)
+
+1. [Variables](#1.-Variables)
+
+2. [Data Types](#data-types)
+
+</p>
+
+
+
 # #0. Why Dart?
 
 dart 는 두 개의 컴파일러를 가지고 있다

@@ -6,7 +6,7 @@
 다트. 뭐 어쩔
 </p>
 
-[0. Why Dart?](#0.-Why-Dart?)
+[0. Why Dart?](#0.-why-dart?)
 
 [1. Variables](#1.-Variables)
 

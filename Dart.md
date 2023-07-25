@@ -28,7 +28,7 @@
 
 
 
-# 0. Why dart
+# 0. dart
 
 dart 는 두 개의 컴파일러를 가지고 있다
 
@@ -62,7 +62,7 @@ dart VM 사용
 # 1. Variables
 
 
-### 1-1. main함수
+### 1-1. main
 
 **main함수는 모든 Dart 프로그램의 Entry point이다.**
 main 함수에서 쓴 코드가 호출된다. **(만약 main이 없다면 실행이 되지 않음)**
@@ -70,7 +70,7 @@ main 함수에서 쓴 코드가 호출된다. **(만약 main이 없다면 실행
 
 
 
-### 1-2. 변수를 만드는 2가지 방법
+### 1-2. 2 way to make Variables
 
 ```
 void main() {
@@ -84,7 +84,7 @@ name = "chicken ";
 
 
 
-### 1-3. Dynamic 타입
+### 1-3. Dynamic
 
 여러가지 타입을 가질 수 있는 변수에 쓰는 키워드이다. **(해당 변수의 타입을 알 수 없을 때 주로 사용)**
 **변수를 선언할 때 dynamic을 쓰거나 값을 지정하지 않으면 dynamic 타입을 가진다.**
@@ -111,7 +111,7 @@ name = null;
 
 
 
-### 1-5. final 변수
+### 1-5. final
 
 **var대신 final로 변수를 만들게 되면 이 변수는 수정할 수 없게 된다.**
 **자바스크립트의 const랑 비슷하다.**
@@ -127,7 +127,7 @@ final String username = "tom";
 
 
 
-### 1-6. late 변수
+### 1-6. late
 
 **초기 데이터 없이 먼저 변수를 생성하고 추후에 데이터를 넣을 때 주로 사용한다.**
 flutter로 data fecthing을 할 때 유용하다.
@@ -143,7 +143,7 @@ print(name); // name 변수에 접근 불가 (데이터를 안넣어서. 당연�
 
 
 
-### 1-7. const 변수
+### 1-7. const
 
 dart에서 const는 compile-time constant를 만들어준다.
 
@@ -187,7 +187,7 @@ String name2 = "chicken"; // 방법 2
 
 
 
-### 2-1. 기본 데이터 타입
+### 2-1. Default Data Type
 
 **아래 타입을 포함한 거의 대부분의 타입들이 객체로 이루어져 있다. (함수도 객체)**
 **이것이 Dart가 진정한 객체 지향 언어로 불리는 이유이다.**
@@ -238,7 +238,7 @@ case1.add(6);
 
 
 
-### 2-3. String interpolation(문자열 보간)
+### 2-3. String interpolation
 
 $달러 기호를 붙이고 사용할 변수를 적어주면 된다.
 만약 무언가를 계산하고 싶다면 ${ } 형태로 적어주면 된다.

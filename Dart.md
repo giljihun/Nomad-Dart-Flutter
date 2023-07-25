@@ -6,11 +6,11 @@
 다트. 뭐 어쩔
 </p>
 
-0. [Why Dart?](#0.-Why-Dart?)
+[0. Why Dart?](#0.-Why-Dart?)
 
-1. [Variables](#1.-Variables)
+[1. Variables](#1.-Variables)
 
-2. [Data Types](#data-types)
+[2. Data Types](#2.-Data-types)
 
 
 # #0. Why Dart?
@@ -168,7 +168,7 @@ String name2 = "chicken"; // 방법 2
 <br>
 <br>
 
-# #2 . Data types
+# #2. Data types
 
 
 

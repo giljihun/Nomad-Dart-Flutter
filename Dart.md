@@ -57,13 +57,13 @@ main 함수에서 쓴 코드가 호출된다. **(만약 main이 없다면 실행
 
 ### #1-2. 변수를 만드는 2가지 방법
 
-\```
+```
 void main() {
 var name = "pizza"; // 방법 1
 String name = "chicken"; // 방법 2
 name = "chicken ";
 }
-\```
+```
 **함수나 메소드 내부에 지역변수를 선언할 때는 var를 사용하고**
 **class에서 변수나 property를 선언할 때는 타입을 지정해준다.**  (Dart Guide에 명시)
 
@@ -73,12 +73,12 @@ name = "chicken ";
 
 여러가지 타입을 가질 수 있는 변수에 쓰는 키워드이다. **(해당 변수의 타입을 알 수 없을 때 주로 사용)**
 **변수를 선언할 때 dynamic을 쓰거나 값을 지정하지 않으면 dynamic 타입을 가진다.**
-\```
+```
 void main(){
 dynamic name;
 var name2; 
 }
-\```
+```
 
 
 
@@ -87,12 +87,12 @@ var name2;
 개발자가 null 값을 참조할 수 없도록 하는 것이다.
 **String뒤에 ?를 붙여줌으로서 name이 String 또는 null이 될 수 있다고 명시해준 것.**
 **기본적으로 모든 변수는 non-nullable(null이 될 수 없음).**
-\```
+```
 void main() {
 String? name = "hello";
 name = null;
 }
-\```
+```
 
 
 
@@ -100,7 +100,7 @@ name = null;
 
 **var대신 final로 변수를 만들게 되면 이 변수는 수정할 수 없게 된다.**
 **자바스크립트의 const랑 비슷하다.**
-\```
+```
 void main() {
 final name = "pizza";
 **name = "ham"; // can't do this**
@@ -108,7 +108,7 @@ final name = "pizza";
 final String username = "tom";
 **name = "tom2"; // can't do this**
 }
-\```
+```
 
 
 
@@ -118,13 +118,13 @@ final String username = "tom";
 flutter로 data fecthing을 할 때 유용하다.
 
 **Ex) late 변수를 만들고, API에 요청을 보낸 뒤에 API에서 값을 보내주면 그 응답값을 late변수에 넣어 사용할 수 있다.**
-\```
+```
 void main() {
 late final String name;
 
 print(name); // name 변수에 접근 불가 (데이터를 안넣어서. 당연쓰.)
 }
-\```
+```
 
 
 
@@ -135,12 +135,12 @@ dart에서 const는 compile-time constant를 만들어준다.
 **const는 컴파일할 때 알고 있는 값을 사용해야 한다.**
 **만약 어떤 값인지 모르고, 그 값이 API로부터 오거나 사용자가 화면에서 입력해야 하는 값이라면 그건 const가 아닌 final이나 var가 되어야 한다.**
 
-\```
+```
 void main() {
 const name = "tom"; // 컴파일 시점에 바뀌지 않는 값
 final username = fetchAPI(); // 컴파일 시점에 바뀌는 값
 }
-\```
+```
 const: 컴파일 시점에 바뀌지 않는 값 (상수)
 final: 컴파일 시점에 바뀌는 값 (API에서 받아온 값, 사용자 입력값)
 
@@ -149,13 +149,13 @@ final: 컴파일 시점에 바뀌는 값 (API에서 받아온 값, 사용자 입
 ### #1-7. RECAP
 
 변수를 만드는 2가지 방법
-\```dart
+```dart
 void main() {
 var name = "pizza"; // 방법 1
 name = "chicken ";
 String name2 = "chicken"; // 방법 2
 }
-\```
+```
 
 **final: 값을 재할당하지 못하는 변수를 만듦**
 **dynamic type: 어떤 타입의 데이터가 들어올 지 모를 때 사용함**
@@ -176,7 +176,7 @@ String name2 = "chicken"; // 방법 2
 
 **아래 타입을 포함한 거의 대부분의 타입들이 객체로 이루어져 있다. (함수도 객체)**
 **이것이 Dart가 진정한 객체 지향 언어로 불리는 이유이다.**
-\```
+```
 void main() {
 String name = "tom";
 bool isPlay = true;
@@ -185,7 +185,7 @@ double money = 52.55;
 num x = 12;
 num y = 1.2;
 }
-\```
+```
 
 
 
@@ -193,17 +193,17 @@ num y = 1.2;
 
 dart에서 lists를 선언하는 것은 두 가지 방법이 있다.
 
-\```
+```
 void main(){
 int case1 = [1,2,3,4,5]; (var도 가능)
 List case2 = [1,2,3,4,5];
 }
-\```
+```
 **dart의 유용한 점은 `collection if`와 `collection for`을 지원하는 것.**
 
 **collection if를 사용하면 `존재할 수도 안할 수도 있는 요소를 가지고 올 수 있다.`**
 
-\```dart
+```dart
 void main(){
 var giveMeSix = true;
 int case1 = [
@@ -219,7 +219,7 @@ if(giveMeSix){
 case1.add(6);
 }
 }
-\```
+```
 
 
 
@@ -227,13 +227,13 @@ case1.add(6);
 
 $달러 기호를 붙이고 사용할 변수를 적어주면 된다.
 만약 무언가를 계산하고 싶다면 ${ } 형태로 적어주면 된다.
-\```
+```
 void main(){
 var name = "tom";
 var age = 10;
 var greeting = "hello $name, I'm ${age + 5}";
 }
-\```
+```
 
 
 
@@ -243,7 +243,7 @@ Dart는 조건문(if) 및 반복(for)을 사용하여 컬렉션을 구축하는 
 
 **컬렉션이란 List, Set, Map, ... 이런 애들을 말함!**
 
-\```
+```
 void main() {
 var oldFriends = ["nico", "lynn"];
 var newFriends = [
@@ -254,7 +254,7 @@ for (var friend in oldFriends) "❤️ $friend",
 
 print(newFriends); // [tom, jon, ❤️ nico, ❤️ lynn]
 }
-\```
+```
 
 
 
@@ -266,7 +266,7 @@ print(newFriends); // [tom, jon, ❤️ nico, ❤️ lynn]
 
 각 키는 한 번만 발생하지만 동일한 값을 여러 번 사용할 수 있습니다.
 
-\```
+```
 var gifts = {
 // Key: Value
 'first': 'partridge',
@@ -279,7 +279,7 @@ var gifts2 = Map();
 gifts2['first'] = 'partridge';
 gifts2['second'] = 'turtledoves';
 gifts2['fifth'] = 'golden rings';
-\```
+```
 
 > 여기서도 var로 변수를 만드는데 아주 유용하긴 한듯..
 
@@ -287,9 +287,9 @@ gifts2['fifth'] = 'golden rings';
 
 Set에 속한 모든 아이템들이 유니크해야될 때 사용한다.
 유니크할 필요가 없다면 List를 사용하면 된다.
-\```
+```
 var halogens = {'fluorine', 'chlorine', 'bromine', 'iodine', 'astatine'};
-\```
+```
 
 > **Dart에서 set에 순서가 있다.**
 > **print({1,2,3}=={3,2,1}); ---> false**

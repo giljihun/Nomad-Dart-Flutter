@@ -8,9 +8,9 @@
 
 [0. why dart?](#0.-why-dart?)
 
-[1. Variables](#1.-Variables)
+[1. variables](#1.-variables)
 
-[2. Data Types](#2.-Data-types)
+[2. data Types](#2.-data-types)
 
 
 # #0. why dart?
@@ -44,7 +44,7 @@ dart VM 사용
 <br>
 <br>
 
-# #1. Variables
+# #1. variables
 
 
 ### #1-1. main함수
@@ -168,7 +168,7 @@ String name2 = "chicken"; // 방법 2
 <br>
 <br>
 
-# #2. Data types
+# #2. data types
 
 
 

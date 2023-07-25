@@ -6,16 +6,11 @@
 다트. 뭐 어쩔
 </p>
 
-<p align="center">
-  
 0. [Why Dart?](#0.-Why-Dart?)
 
 1. [Variables](#1.-Variables)
 
 2. [Data Types](#data-types)
-
-</p>
-
 
 
 # #0. Why Dart?
@@ -45,10 +40,11 @@ dart VM 사용
 
 * flutter 가 처음 나왔을 때 AOT 컴파일러 는 없었다. flutter 팀의 요청에 의해 dart 팀에서 개발 한 것.
 
-
+<br>
+<br>
+<br>
 
 # #1. Variables
-
 
 
 ### #1-1. main함수
@@ -168,6 +164,9 @@ String name2 = "chicken"; // 방법 2
 **late: final, var, String같은 것들 앞에 써줄 수 있는 수식어로서 어떤 데이터가 올 지 모를 때 사용한다.**
 
 
+<br>
+<br>
+<br>
 
 # #2 . Data types
 

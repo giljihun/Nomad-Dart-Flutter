@@ -6,11 +6,11 @@
 다트. 뭐 어쩔
 </p>
 
-[0. why dart?](#0.-why-dart?)
+[0. why dart?]( #0.-why-dart?)
 
-[1. variables](#1.-variables)
+[1. variables]( #1.-variables)
 
-[2. data Types](#2.-data-types)
+[2. data Types]( #2.-data-types)
 
 
 # #0. why dart?

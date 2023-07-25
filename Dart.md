@@ -6,11 +6,26 @@
 다트. 뭐 어쩔
 </p>
 
-[0. why dart?](#0.-why-dart?)
+- [0. Why dart?](#0-why-dart-)
+- [1. Variables](#1-variables)
+    + [1-1. main함수](#1-1-main--)
+    + [1-2. 변수를 만드는 2가지 방법](#1-2---------2-----)
+    + [1-3. Dynamic 타입](#1-3-dynamic---)
+    + [1-4. Null Safety](#1-4-null-safety)
+    + [1-5. final 변수](#1-5-final---)
+    + [1-6. late 변수](#1-6-late---)
+    + [1-7. const 변수](#1-7-const---)
+    + [1-8. RECAP](#1-8-recap)
+- [2. Data types](#2-data-types)
+    + [2-1. 기본 데이터 타입](#2-1----------)
+    + [2-2. Lists](#2-2-lists)
+    + [2-3. String interpolation(문자열 보간)](#2-3-string-interpolation--------)
+    + [2-4. Collection For](#2-4-collection-for)
+    + [2-5. Maps](#2-5-maps)
+    + [2-6. Sets](#2-6-sets)
 
-[1. variables](#1.-variables)
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
-[2. data Types](#2.-data-types)
 
 
 # 0. Why dart?

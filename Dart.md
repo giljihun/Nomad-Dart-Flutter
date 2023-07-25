@@ -6,7 +6,7 @@
 다트. 뭐 어쩔
 </p>
 
-- [0. dart](#0-dart)
+- [0. Dart](#0-dart)
 - [1. Variables](#1-variables)
     + [1-1. main](#1-1-main)
     + [1-2. 2 way to make Variables](#1-2-2-way-to-make-variables)
@@ -29,7 +29,7 @@
 
 
 
-# 0. dart
+# 0. Dart
 
 dart 는 두 개의 컴파일러를 가지고 있다
 

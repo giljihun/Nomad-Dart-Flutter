@@ -6,14 +6,14 @@
 다트. 뭐 어쩔
 </p>
 
-[0. Why Dart?](#0.-why-dart?)
+[0. why dart?](#0.-why-dart?)
 
 [1. Variables](#1.-Variables)
 
 [2. Data Types](#2.-Data-types)
 
 
-# #0. Why Dart?
+# #0. why dart?
 
 dart 는 두 개의 컴파일러를 가지고 있다
 

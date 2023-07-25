@@ -13,7 +13,7 @@
 [2. data Types](##2.-data-types)
 
 
-# #0. why dart?
+# #0. Why dart?
 
 dart 는 두 개의 컴파일러를 가지고 있다
 
@@ -44,7 +44,7 @@ dart VM 사용
 <br>
 <br>
 
-# #1. variables
+# #1. Variables
 
 
 ### #1-1. main함수
@@ -168,7 +168,7 @@ String name2 = "chicken"; // 방법 2
 <br>
 <br>
 
-# #2. data types
+# #2. Data types
 
 
 
